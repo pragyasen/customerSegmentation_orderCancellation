@@ -52,5 +52,5 @@ It can be seen from the above data that:
 <img src="/feature_importance.png" alt="Feature Importance" height="235"/>
 
 ## Conclusion
-1. Customer Segmentation using PCA + K-means revealed clear behavioral clusters, enabling targeted marketing, inventory planning, and customer value maximization.
+1. Customer Segmentation using PCA + K-means revealed clear behavioral clusters, enabling targeted marketing, inventory planning and customer value maximization.
 2. Order Cancellation Analysis via Logistic Regression identified key drivers such as Promotion presence, Order quantity empowering proactive risk management.
