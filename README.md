@@ -38,10 +38,19 @@ Amazon Fashion retail data (from Kaggle): 128k records, 23 fields
    <img src="/cancelation_by_category.png" alt="Cancelation Rate by Category" width="300"/>
   <img src="/cancelation_by_fulfillment_method.png" alt="Cancelation Rate by Fulfillment Method" height="300"/>
   <img src="/cancelation_by_promotion.png" alt="Cancelation Rate by Promotion Presence" width="300"/>
+
 ### Correlation analysis
 It can be seen from the above data that:
 1. Cancellation Rate is significantly higher in items which do not have promotion.
 2. Cancellation Rate is slightly higher for orders from an external Merchant.
 
-5. Used Logistic regression for Predictive analysis.
+### Logistic regression for Predictive analysis
+1. This model has an Accuracy of 96%.
+2. Whether or not an item has promotion has the highest feature importance and is the strongest predictor of order cancellation.
 
+<img src="/logistic_regression.png" alt="Logistic Regression Performance" height="200"/>
+<img src="/feature_importance.png" alt="Feature Importance" height="235"/>
+
+## Conclusion
+1. Customer Segmentation using PCA + K-means revealed clear behavioral clusters, enabling targeted marketing, inventory planning, and customer value maximization.
+2. Order Cancellation Analysis via Logistic Regression identified key drivers such as Promotion presence, Order quantity empowering proactive risk management.
